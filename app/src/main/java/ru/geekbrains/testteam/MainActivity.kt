@@ -2,8 +2,8 @@ package ru.geekbrains.testteam
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.Toast
+import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,6 +15,6 @@ class MainActivity : AppCompatActivity() {
         btn.setOnClickListener {
             Toast.makeText(this, "Button", Toast.LENGTH_LONG).show()
         }
-
+            ///fdq
     }
 }
